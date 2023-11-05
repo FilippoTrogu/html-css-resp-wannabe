@@ -131,4 +131,26 @@
   /* TABLET */
  
   
- 
+@media screen and (max-width: 768px) {
+    .container{
+        max-width: 760px;
+    }
+
+    .col{
+        max-width: 760px;
+    }
+
+} 
+
+/* Smartphone */
+
+@media screen and (max-width: 480px) {
+    .container{
+        max-width: 470px;
+    }
+
+    .col{
+        max-width: 470px;
+    }
+
+} 
